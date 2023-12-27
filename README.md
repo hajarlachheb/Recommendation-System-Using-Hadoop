@@ -1,0 +1,3 @@
+During our previous work to create a recommendation system that will allow us to recommend movies using the ml-100k dataset. We opted for collaborative filtering, and it is a method that will allow us to make automatic predictions (filtering) on the interests of a user by collecting the preferences or taste information of many users.
+We used the ALS as a model. Indeed, the idea was essentially to take a large matrix and factor it into a smaller representation of the original matrix through alternating least squares.
+We will find ourselves in the final with two or more matrices of lower dimension whose product is equal to the original one.
